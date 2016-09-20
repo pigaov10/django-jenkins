@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_jenkins',
-    'polls'
+    'meu_projeto_django.meu_projeto_django.polls'
 ]
 
 JENKINS_TASK = (
