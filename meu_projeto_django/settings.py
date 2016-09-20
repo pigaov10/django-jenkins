@@ -37,7 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'django_jenkins'
+    'django_jenkins',
+    'polls'
 ]
 
 JENKINS_TASK = (
@@ -84,8 +85,8 @@ WSGI_APPLICATION = 'meu_projeto_django.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'mysql',
+    'ENGINE': 'django.db.backends.mysql',
+    'NAME': 'meuprojeto',
 	'HOST': 'localhost',
 	'USER': 'root',
 	'PASSWORD': '29367253',
